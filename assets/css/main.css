@@ -1,0 +1,169 @@
+@import "https://use.fontawesome.com/releases/v5.0.2/css/all.css";
+@import "https://fonts.googleapis.com/css?family=Barlow:400,600,700|Pacifico&amp;subset=latin-ext";
+@import "https://fonts.googleapis.com/css?family=Varela+Round&amp;subset=latin-ext";
+body {
+  margin: 0;
+  font-family: "Varela Round", sans-serif;
+  background: #fafafa; }
+
+.site_post_container {
+  overflow: hidden;
+  color: #333; }
+  .site_post_container img.post-img {
+    height: 700px;
+    width: calc(100% + 4px);
+    transform: translate(-2px, -2px);
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+    display: block; }
+    @media screen and (max-width: 900px) {
+      .site_post_container img.post-img {
+        height: 350px; } }
+    @media screen and (max-width: 700px) {
+      .site_post_container img.post-img {
+        height: 280px; } }
+    @media screen and (max-width: 550px) {
+      .site_post_container img.post-img {
+        height: 200px; } }
+    @media screen and (max-width: 400px) {
+      .site_post_container img.post-img {
+        height: 180px; } }
+  .site_post_container .under-post-img-belka {
+    position: relative;
+    top: -5px;
+    z-index: 0;
+    height: 15px;
+    background: #f5f5f5; }
+    @media screen and (max-width: 900px) {
+      .site_post_container .under-post-img-belka {
+        display: none; } }
+  .site_post_container .post-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    position: relative;
+    top: -400px;
+    padding: 15px 0 25px 0;
+    box-shadow: 0px 10px 16px #c0c0c0; }
+    @media screen and (max-width: 900px) {
+      .site_post_container .post-container {
+        top: 0;
+        border-radius: 0px; } }
+    .site_post_container .post-container header.post-header {
+      padding: 15px 25px 20px 25px;
+      border-bottom: 2px solid #f3f3f3; }
+      @media screen and (max-width: 900px) {
+        .site_post_container .post-container header.post-header {
+          padding: 0px 25px 20px 25px; } }
+      @media screen and (max-width: 850px) {
+        .site_post_container .post-container header.post-header {
+          padding: 0px 15px 10px 15px; } }
+      .site_post_container .post-container header.post-header h1.post-header-title {
+        margin: 0;
+        font-family: "Pacifico", "Barlow", "Roboto", sans-serif;
+        font-size: 32px; }
+        @media screen and (max-width: 650px) {
+          .site_post_container .post-container header.post-header h1.post-header-title {
+            font-size: 28px; } }
+      .site_post_container .post-container header.post-header h2.post-header-second-title {
+        margin: 10px 0 0 0;
+        font-family: "Barlow", sans-serif;
+        font-size: 18px;
+        font-weight: 600; }
+        @media screen and (max-width: 650px) {
+          .site_post_container .post-container header.post-header h2.post-header-second-title {
+            font-weight: 500; } }
+      .site_post_container .post-container header.post-header ul.post-header-info {
+        list-style-type: none;
+        padding: 0;
+        margin: 20px 0 0 0;
+        display: flex; }
+        .site_post_container .post-container header.post-header ul.post-header-info li:first-child {
+          margin-right: 15px; }
+        .site_post_container .post-container header.post-header ul.post-header-info li a {
+          transition: 75ms all ease-in-out;
+          color: #333;
+          text-decoration: none;
+          font-weight: 500; }
+          .site_post_container .post-container header.post-header ul.post-header-info li a:hover {
+            cursor: pointer;
+            color: #000; }
+    .site_post_container .post-container .post-content {
+      padding: 10px 25px; }
+      @media screen and (max-width: 850px) {
+        .site_post_container .post-container .post-content {
+          padding: 10px 15px; } }
+      .site_post_container .post-container .post-content p {
+        margin: 15px 0;
+        line-height: 1.5em;
+        letter-spacing: 0.012em;
+        font-size: 16.5px; }
+      .site_post_container .post-container .post-content img {
+        width: 100%;
+        border-radius: 8px; }
+    .site_post_container .post-container .post-comments {
+      border-top: 2px solid #f3f3f3;
+      padding: 15px 25px; }
+      .site_post_container .post-container .post-comments h1.post-comments-header {
+        margin: 0;
+        font-family: "Barlow", "Roboto", sans-serif;
+        font-size: 32px; }
+        @media screen and (max-width: 650px) {
+          .site_post_container .post-container .post-comments h1.post-comments-header {
+            font-size: 28px; } }
+      .site_post_container .post-container .post-comments .comment {
+        display: flex;
+        align-items: center;
+        font-family: "Roboto", sans-serif;
+        margin: 15px 0 25px 0; }
+        .site_post_container .post-container .post-comments .comment img {
+          width: 50px;
+          height: 50px;
+          border-radius: 6px;
+          object-fit: cover;
+          border: 1px solid #f3f3f3;
+          margin-right: 10px; }
+        .site_post_container .post-container .post-comments .comment .content {
+          background: #eff1f3;
+          padding: 8px 10px;
+          min-width: 180px;
+          border-radius: 6px; }
+          .site_post_container .post-container .post-comments .comment .content h5 {
+            margin: 0;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 5px; }
+          .site_post_container .post-container .post-comments .comment .content p {
+            font-size: 16px;
+            margin: 0; }
+      .site_post_container .post-container .post-comments .form-new-comment {
+        border-top: 1px solid #f3f3f3;
+        padding: 15px 0 0 0;
+        display: flex;
+        align-items: center;
+        font-family: "Roboto", sans-serif;
+        margin: 15px 0 25px 0; }
+        .site_post_container .post-container .post-comments .form-new-comment img {
+          width: 40px;
+          height: 40px;
+          border-radius: 6px;
+          object-fit: cover;
+          border: 1px solid #f3f3f3;
+          margin-right: 10px; }
+        .site_post_container .post-container .post-comments .form-new-comment .content {
+          width: 100%;
+          max-width: 500px; }
+          .site_post_container .post-container .post-comments .form-new-comment .content input {
+            width: 100%;
+            outline: none;
+            padding: 0 10px;
+            margin: 0;
+            box-sizing: border-box;
+            border: 1px solid #c3cbd2;
+            background: #fff;
+            height: 28px;
+            border-radius: 14px; }
+
+/*# sourceMappingURL=main.css.map */
