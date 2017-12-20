@@ -3,8 +3,7 @@
 @import "https://fonts.googleapis.com/css?family=Varela+Round&amp;subset=latin-ext";
 body {
   margin: 0;
-  font-family: "Varela Round", sans-serif;
-  background: #fafafa; }
+  font-family: "Varela Round", sans-serif; }
 
 .site_post_container {
   overflow: hidden;
@@ -34,7 +33,7 @@ body {
     top: -5px;
     z-index: 0;
     height: 15px;
-    background: #f5f5f5; }
+    background: #fefefe; }
     @media screen and (max-width: 900px) {
       .site_post_container .under-post-img-belka {
         display: none; } }
@@ -46,7 +45,7 @@ body {
     position: relative;
     top: -400px;
     padding: 15px 0 25px 0;
-    box-shadow: 0px 10px 16px #c0c0c0; }
+    border: 15px solid #fefefe; }
     @media screen and (max-width: 900px) {
       .site_post_container .post-container {
         top: 0;
